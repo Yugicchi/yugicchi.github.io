@@ -2,7 +2,7 @@
 - 👀 I’m interested in Web designing
 - 🌱 I’m currently learning HTML
 - 💞️ I’m looking to collaborate on (well since i just follow this template so i don't think i'm looking for collaboration yet)
-- 📫 How to reach me (you can't)
+- 📫 How to reach me (you can't..)
 
 <!---
 Yugicchi/Yugicchi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
