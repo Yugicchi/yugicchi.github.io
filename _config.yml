@@ -1,3 +1,20 @@
+# _config.yml
+theme_color: snowwhite
+brand_color: orangered
+content_width: 920px
+
+click_to_top:
+  light:
+    background_color: "#ffffff"
+    color: "#454545"
+  dark:
+    background_color: "#34323d"
+    color: "#bbb"
+
+selection:
+  color: "#FFFFFF"
+  background_color: "#000000"
+  
 title: Yuginara
 email: ""
 description: A poet who serves under the moonlight's call.
@@ -5,10 +22,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yugicchi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yugicchi
 github_username:  yugicchi
-
-selection:
-  color: "#FFFFFF"
-  background_color: "#000000"
 
 theme: minima
 plugins:
