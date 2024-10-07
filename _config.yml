@@ -20,7 +20,7 @@
 
 title: Yuginara
 email: ""
-description: > A poet who serves under the moonlight's call.
+description: A poet who serves under the moonlight's call.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yugicchi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yugicchi
