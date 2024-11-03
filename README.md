@@ -3,7 +3,7 @@
 This is the main repository for my web project. It contains all files and folders for assets like stylesheets and posts.  
 This `README.md` will provide the information such as [Project Structure](#project-structure), [License](#license), and the [things that need to be done](#to-do-list).  
 I'll try to make progress each week :D<br><br>
-*Although college have something more to offer:*<details><summary>(don't regret clicking this)</summary><img src="/assets/images/importan-notis.jpg"></details>
+*Although college have something more to offer:*<details><summary>(don't regret clicking this)</summary><img src="/assets/images/importan-notis.jpg" width="100"></details>
 
 ## To-Do List
 Post
