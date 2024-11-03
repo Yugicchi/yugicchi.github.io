@@ -1,89 +1,77 @@
-# Yugicchi's blog Repository
+# Hello!
 
-This is the main repository for the blog. It contains all files and folders for assets like stylesheets and posts.  
+This is the main repository for my web project. It contains all files and folders for assets like stylesheets and posts.  
+This `README.md` will provide the information such as [Project Structure](#project-structure), [License](#license), and the [things that need to be done](#to-do-list).  
+I'll try to make progress each week :D<br><br>
+*Although college have something more to offer:*<details><summary>(don't regret clicking this)</summary><img src="/assets/images/importan-notis.jpg"></details>
+
+## To-Do List
+Post
+- [ ] Make two example posts, name using 'YYYY-MM-DD-title' format
+- [ ] Add front matter metadata: title, date and tags
+      
+Homepage
+- [ ] Set up homepage in index.html
+- [ ] Set up list for recent posts
+      
+Layouts
+- [ ] Create base layout including header and footer layout
+- [ ] Create post layout including title, date and content
+      
+Assets and Styling
+- [ ] Create main stylesheet
+- [ ] Set up font, color styles, etc.
+- [ ] Add header and logo
+      
+Tags
+- [ ] Create tags in `content/tags` for each topic
+- [ ] List and link each post
+      
+Archive
+- [ ] Create archive pages
+- [ ] Set up by year
+- [ ] List and link each post
+      
+Header and Footer content
+- [ ] Add navigation links
+- [ ] Add links to social media, contact information, and copyright notice
+- [ ] Add back-to-top link
+      
+Documentation
+- [x] Make project overview
+- [x] To-do list
+- [x] License
+- [ ] Update README.md
+
+## Future Enhancements
+- [ ] Add pagination for posts
+- [ ] Add search functionality
+- [ ] Mobile responsiveness and accessibility
+      
+Add JavaScript for 
+- [ ] Toggles
+- [ ] Animations
+- [ ] Responsive behavior
 
 ## Project Structure
-
 ```markdown
-📁 yugicchi.github.io/
-├── 📁 assets/
-│   ├── 📁 css/
+📁 yugicchi.github.io
+├── 📁 assets
+│   ├── 📁 css
 │   │   └── style.css
-│   └── 📁 images/
-├── 📁 content/
-│   ├── 📁 posts/
-│   ├── 📁 tags/
-│   └── 📁 archive/
-├── 📁 layouts/
-├── 📁 includes/
+│   └── 📁 images
+├── 📁 content
+│   ├── 📁 posts
+│   ├── 📁 tags
+│   └── 📁 archive
+├── 📁 layouts
+├── 📁 includes
 ├── index.html
 └── README.md
 ```
+</details>
 
----
 
-## To-Do List
-
-### Assets
-- [ ] **CSS (`assets/css/style.css`)**: Create or update the main stylesheet. Define basic styles for fonts, colors, and layout.
-- [ ] **Images (`assets/images`)**: Add any necessary images for initial posts or layout (e.g., logo, header image).
-
-### Content
-- **Posts (`content/posts`)**
-  - [ ] **Create initial posts**: Write at least one post in Markdown format to ensure proper layout and styling.
-  - [ ] **Organize posts by date**: Follow the format `YYYY-MM-DD-title.md` for consistent organization.
-  - [ ] **Add front matter**: Include metadata (title, date, tags) at the top of each post.
-
-- **Tags (`content/tags`)**
-  - [ ] **Create tag files**: Add files for each category or topic (e.g., `storytelling.md`, `poem.md`).
-  - [ ] **List associated posts**: Link each post to its corresponding tag page.
-
-- **Archive (`content/archive`)**
-  - [ ] **Set up archive by year**: Create a file for each year (e.g., `2023.md`, `2024.md`) to group posts by date.
-  - [ ] **Link posts to archives**: Update each year's archive file to include links to that year's posts.
-
-### Layouts
-- **Base Layout (`layouts/base.html`)**
-  - [ ] **Design base layout**: Create a foundational HTML structure for the blog.
-  - [ ] **Add header and footer includes**: Integrate `header.html` and `footer.html` from the `includes` across pages.
-
-- **Post Layout (`layouts/post.html`)**
-  - [ ] **Design post layout**: Customize layout for individual blog posts, including title, content, tags, and navigation.
-  
-- **Tag Layout (`layouts/tag.html`)**
-  - [ ] **Design tag page layout**: Set up a layout to display all posts under a specific tag.
-
-### Includes
-- **Header (`includes/header.html`)**
-  - [ ] **Create header component**: Add navigation links to main pages (e.g., Home, About, Archive).
-  - [ ] **Add blog title and logo**: Display the blog title or logo for branding.
-
-- **Footer (`includes/footer.html`)**
-  - [ ] **Create footer component**: Add links to social media, contact information, and copyright notice.
-  - [ ] **Add back-to-top link**: Consider adding a link to scroll back to the top of the page.
-
-### Homepage (`index.html`)
-- [ ] **Set up homepage**: Write a welcome message or introduction for the blog.
-- [ ] **List recent posts**: Include a list of the most recent posts for easy access.
-
-### Documentation
-- **README.md**
-  - [x] **Project overview**: Provide an overview of the blog and repository structure.
-  - [x] **To-do list**: Outline tasks needed to set up and maintain the blog.
-  - [ ] **License**: 
-
----
-
-## Future Enhancements
-- [ ] Add JavaScript (`assets/js/script.js`): Implement any custom JavaScript needed for features like toggles, animations, or responsive behavior.
-- [ ] Add pagination for posts.
-- [ ] Implement search functionality for easy navigation.
-- [ ] Improve mobile responsiveness and accessibility.
-
----
-
-Happy Blogging!
-
-### License
+## License
 - **Code**: Licensed under the MIT License. Free for personal and commercial use with attribution.
 - **Content**: Licensed under CC BY-NC 4.0. You may use, share, and adapt blog posts for personal and academic purposes with attribution. Commercial use is not permitted.
