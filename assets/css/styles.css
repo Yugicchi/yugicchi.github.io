@@ -7,7 +7,13 @@ body {
 	align-items: center;
 	min-height: 100vh;
 	margin: 0;
+	padding: 20px;
 	text-align: center;
+}
+
+.centered-div {
+    max-width: 400px;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,9 +61,8 @@ button:hover {
     }
 
     button {
-        width: 100%;
-        padding: 15px;
-        margin: 5px 0;
+        width: 150px;
+        margin: 10px;
     }
 
     p {
