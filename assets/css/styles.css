@@ -2,6 +2,12 @@
 body {
 	background-color: #f9f9f9;
 	color: #1c1c1c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
