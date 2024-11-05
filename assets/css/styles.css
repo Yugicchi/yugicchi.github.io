@@ -19,3 +19,19 @@ p {
     font-family: 'Noto Sans Mono', monospace;
     font-size: 12px;
 }
+
+button {
+    width: 150px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0;
+    background-color: #c6ddea;
+    color: #1c1c1c;
+    cursor: pointer;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+button:hover {
+    background-color: #a6c8e5;
+}
