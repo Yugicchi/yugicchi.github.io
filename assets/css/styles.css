@@ -44,6 +44,14 @@ button:hover {
 @media (max-width: 600px) {
     body {
         flex-direction: column;
+	align-items: center;
+    }
+
+	.centered-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     button {
