@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function(){
                     }
                 },
                 "color": {
-                    "value": "#1c1c1c"
+                    "value": "#ffffff"
                 },
                 "opacity": {
-                    "value": 0.3,
+                    "value": 0.7,
                     "random": false,
                     "anim": {
                         "enable": false
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 },
                 "move": {
                     "enable": true,
-                    "speed": 5,
+                    "speed": 3,
                     "direction": "bottom",
                     "random": true,
                     "straight": false,
