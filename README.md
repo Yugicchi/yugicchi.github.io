@@ -57,13 +57,7 @@ Add JavaScript for
 ```markdown
 📁 yugicchi.github.io
 ├── 📁 assets
-│   ├── 📁 css
-│   │   └── style.css
-│   └── 📁 images
 ├── 📁 content
-│   ├── 📁 posts
-│   ├── 📁 tags
-│   └── 📁 archive
 ├── 📁 layouts
 ├── 📁 includes
 ├── index.html
