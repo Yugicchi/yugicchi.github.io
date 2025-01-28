@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&family=Noto+Sans+Mono&display=swap');
-{header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #2C272C; /* Your preferred color */
-    color: white;
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #1c1c1c;
+	color: white;
+	padding: 1rem;
+	box-shadow: 0 2px 5px rgba (0, 0, 0, 0.2);
+	z-index: 1000;
 }
 
-nav ul {
+.top-bar header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-bar nav ul li a{
     display: flex;
     list-style: none;
     gap: 1rem;
+	font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav ul li a {
@@ -20,9 +32,6 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #B95547;
-}
 body {
 	background-color: #8eaccd;
 	color: #1c1c1c;
