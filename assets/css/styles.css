@@ -27,8 +27,8 @@
 	display: flex;
 	gap: 20px;
 	margin: 0;
+	margin-left: auto;
 	padding: 0;
-    gap: 1rem;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -55,7 +55,7 @@
 }
 
 body {
-	background-color: #8eaccd;
+	background-color: #f9f9f9;
 	color: #1c1c1c;
 	display: flex;
 	justify-content: center;
@@ -63,12 +63,12 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	padding: 20px;
-	text-align: center;
 }
 
 .centered-div {
     max-width: 400px;
     width: 100%;
+	text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -128,6 +128,7 @@ button:hover {
         font-size: 18px;
     }
 }
+
 #snow {
  position: fixed;
  top: 0;
