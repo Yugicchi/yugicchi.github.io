@@ -10,14 +10,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	box-shadow: 0 2px 5px rgba (0, 0, 0, 0.2);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 	z-index: 1000;
+}
+
+.top-bar a{
+	color: white;
+    text-decoration: none;
 }
 
 .logo {
     display: flex;
     align-items: center;
-	color: white;
     font-size: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -26,7 +30,7 @@
 .nav-menu {
     list-style-type: none;
 	display: flex;
-	gap: 20px;
+	gap: 5px;
 	margin: 0;
 	margin-left: auto;
 	padding: 0;
@@ -42,7 +46,7 @@
     color: white;
     font-weight: bold;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 2px;
     transition: background-color 0.3s ease;
 }
 
