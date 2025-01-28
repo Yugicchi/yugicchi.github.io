@@ -17,6 +17,7 @@
 .logo {
     display: flex;
     align-items: center;
+	color: white;
     font-size: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
